@@ -1,0 +1,12 @@
+What is the value of argv?
+0x7fffffffe638
+What is the value of argv[0]?
+0x7fffffffe84d
+What is the address of the function main?
+0x40064d
+info stack:
+When I press info stack I see only the display for the zero frame '#0' which shows the stack functions, in this case for wc.c 'main',argc=2,and argv=0x7fffffffe638. It also shows the source file and line number.
+info frame:
+Prints the stack frame address, also the addresses of the next frame up and down, the source language, in this case C, the address of this frame's args, and the registers saved.
+info registers:
+Prints a chart displaying the registers and their information. The registers that I recognize are rbp for locals,and rip which is the register of the main frame.  

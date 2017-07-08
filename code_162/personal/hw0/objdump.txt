@@ -1,0 +1,9 @@
+What file format is used for this binary? And what architechture is compiled for?
+Where are using elf64-x86-64 and compiled for architechture i386:x86-64, which is machine code instructions.
+What are some of the names of segment/sections you find?
+Dynamic,Version References,Disassembly of section .init, section .text, and section .fini are some of the ones I saw.
+What segment/section contains main and what is the address of main?
+The section .text contains main, with the following address 000000000040064d.
+Do you see the stack anywhere? What about the heap?
+Yes, I can see the Stack also in the .text section but I'm not able to see the heap.
+

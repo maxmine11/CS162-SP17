@@ -1,0 +1,9 @@
+What direction is the stack growing in?
+The stack is growing in derection pointing down.
+How large is the stack frame for each recursive call?
+The stack frame for each recursive call is 3
+Where is the heap? What direction is it growing in?
+The heap is in the <_DYNAMIC> section, and it's growing up.
+Are the two malloc()ed memory areas contigous?
+No, they are not contigious.
+
